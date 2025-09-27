@@ -153,7 +153,7 @@ img {
   justify-content: center;
   align-items: center;
   background: linear-gradient(135deg, rgba(102, 126, 234, 0.8), rgba(118, 75, 162, 0.8)),
-              url("assets/img/ceramic.jpg") center/cover no-repeat;
+              url("https://res.cloudinary.com/devuzwfsg/image/upload/v1758937274/sinter_plant_zm3smw.jpg") center/cover no-repeat;
   color: white;
   text-align: center;
   position: relative;
