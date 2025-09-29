@@ -3,14 +3,14 @@
 
 /* Custom Properties */
 :root {
-  --primary-color: #00b894;
+  --primary-color: #f49c13;
   --primary-dark: #00a085;
-  --secondary-color: #6c5ce7;
+  --secondary-color: #f49c13;
   --accent-color: #fd79a8;
   --dark-bg: #0f1419;
   --card-bg: rgba(255, 255, 255, 0.95);
   --text-dark: #2d3748;
-  --text-light: #718096;
+  --text-light:#2d3748 ;
   --border-color: rgba(255, 255, 255, 0.1);
   --shadow-light: 0 10px 40px rgba(0, 0, 0, 0.1);
   --shadow-heavy: 0 20px 60px rgba(0, 0, 0, 0.2);
@@ -27,15 +27,19 @@
 
 html {
   scroll-behavior: smooth;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'sans-serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   color: var(--text-dark);
   line-height: 1.7;
   overflow-x: hidden;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
   min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 a {
@@ -60,6 +64,8 @@ img {
 .navbar {
   position: fixed;
   top: 0;
+  left:0;
+  right:0;
   width: 100%;
   backdrop-filter: blur(20px) saturate(180%);
   background: rgba(255, 255, 255, 0.05);
@@ -152,7 +158,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.8), rgba(118, 75, 162, 0.8)),
+  background:
               url("https://res.cloudinary.com/devuzwfsg/image/upload/v1758937274/sinter_plant_zm3smw.jpg") center/cover no-repeat;
   color: white;
   text-align: center;
